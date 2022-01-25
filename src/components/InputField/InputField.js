@@ -12,6 +12,7 @@ const InputField = ({ scale, temperature, handleChangeTemp }) => {
                     type="number"
                     value={temperature}
                     onChange={(e) => handleChangeTemp(e, scale)}
+                    placeholder="Please enter a temperature in number 😃"
                 />
             </fieldset>
         </div>
