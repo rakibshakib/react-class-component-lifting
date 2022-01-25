@@ -32,7 +32,7 @@ export default class TempApp extends Component {
                     temperature={fahrenheit}
                     handleChangeTemp={this.handleChangeTemp}
                 />
-                <IsBoiledWater celsius={temparute} />
+                <IsBoiledWater celsius={celicus} fahrenheit={fahrenheit} />
             </div>
         );
     }
